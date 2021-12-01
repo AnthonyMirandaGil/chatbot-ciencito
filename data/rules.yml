@@ -1,0 +1,20 @@
+version: "2.0"
+
+rules:
+  - rule: greet user
+    steps:
+      - intent: saludo
+      - action: utter_saludo
+      - action: utter_requerir_consulta
+  - rule: request more help
+    steps: 
+      - intent: agradecimiento
+      - action: utter_agradecimiento_y_requerir_mas
+  - rule: deny request more
+    steps:
+      - intent: denegar_mas_ayuda
+      - action: utter_despedida
+  - rule: affirm request more
+    steps:
+      - intent: confirmar_requerir_mas_ayuda
+      - action: utter_requerir_consulta

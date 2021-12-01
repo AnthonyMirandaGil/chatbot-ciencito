@@ -1,0 +1,492 @@
+version: '2.0'
+config:
+  store_entities_as_slots: true
+session_config:
+  session_expiration_time: 0
+  carry_over_slots_to_new_session: true
+intents:
+- despedida:
+    use_entities: true
+- saludo:
+    use_entities: true
+- confirmar_requerir_mas_ayuda:
+    use_entities: true
+- consulta_posibilidad_medida_adicional:
+    use_entities: true
+- denegar_mas_ayuda:
+    use_entities: true
+- agradecimiento:
+    use_entities: true
+- consulta_pago_autoseguro:
+    use_entities: true
+- consulta_contacto_aera:
+    use_entities: true
+- saludo_y_consulta_matricula_horarios:
+    use_entities: true
+- saludo_y_consulta_matricula_rezagada_procedimiento:
+    use_entities: true
+- consulta_matricula_rezagada_procedimiento:
+    use_entities: true
+- consulta_matricula_pago_autoseguro_fechas:
+    use_entities: true
+- consulta_problemas_realizar_retiro_total_segunda:
+    use_entities: true
+- consulta_formato_solicitud_retiro_total:
+    use_entities: true
+- saludo_y_consulta_matricula_cronograma:
+    use_entities: true
+- consulta_matricula_cronograma:
+    use_entities: true
+- consulta_matricula_horarios:
+    use_entities: true
+- saludo_y_consulta_cursos_horarios:
+    use_entities: true
+- saludo_y_solicitar_asistencia:
+    use_entities: true
+- consulta_formato_solicitud_reincorporacion:
+    use_entities: true
+- consulta_reincorporacion_fechas:
+    use_entities: true
+- consulta_reserva_matricula_procedimiento:
+    use_entities: true
+- consulta_reserva_matricula_fechas:
+    use_entities: true
+- consulta_horario_atencion:
+    use_entities: true
+- saludo_y_consulta_matricula_rezagado_pago_procedimiento:
+    use_entities: true
+- saludo_y_consulta_reincorporacion_procedimiento:
+    use_entities: true
+- saludo_y_consulta_matricula_curso_y_pre_requisito:
+    use_entities: true
+- saludo_y_consulta_solicitud_constancia_matricula_procedimiento:
+    use_entities: true
+- consulta_formato_solicitud_constancia_matricula:
+    use_entities: true
+- consulta_constancia_matricula_pago:
+    use_entities: true
+- saludo_y_consulta_problemas_matricula_proceso_culminado:
+    use_entities: true
+- consulta_matricula_rezagado_pago_procedimiento:
+    use_entities: true
+- consulta_problemas_matricula:
+    use_entities: true
+- consulta_cursos_falta_vacantes:
+    use_entities: true
+- saludo_y_consulta_cursos_solicitud_vacantes_respuesta_pendiente:
+    use_entities: true
+- saludo_y_consulta_problemas_matricula:
+    use_entities: true
+- consulta_cambio_seccion:
+    use_entities: true
+- saludo_y_consulta_cambio_seccion:
+    use_entities: true
+- consulta_formulario_tiempo_de_respuesta:
+    use_entities: true
+- saludo_y_consulta_perdida_turno_matricula:
+    use_entities: true
+- consulta_perdida_turno_matricula:
+    use_entities: true
+- consulta_retiro_parcial_procedimiento:
+    use_entities: true
+- consulta_retiro_parcial_fechas:
+    use_entities: true
+- saludo_y_consulta_pago_autoseguro:
+    use_entities: true
+- saludo_y_consulta_problemas_matricula_no_habilitada:
+    use_entities: true
+- confimacion_pago_autoseguro_fuera_fecha:
+    use_entities: true
+- consulta_posibilidad_medidida_adicional:
+    use_entities: true
+- consulta_horario_cursos:
+    use_entities: true
+- saludo_y_consulta_atencion_virtual:
+    use_entities: true
+- consulta_generica:
+    use_entities: true
+- consulta_horario_atencion_mesa_partes_orce:
+    use_entities: true
+- consulta_recepcion_documentos_fuera_horario:
+    use_entities: true
+- utter_informar_pasa_a_:
+    use_entities: true
+- consulta_constancia_notas_procedimiento:
+    use_entities: true
+- consulta_certificado_tercio_quinto_o_decimo_superior:
+    use_entities: true
+- consulta_reincorporacion_procedimiento:
+    use_entities: true
+- consulta_reincorporacion_rezagada_procedimiento:
+    use_entities: true
+- consulta_deuda_tutoria:
+    use_entities: true
+- saludo_y_consulta_orden_pago_procedimiento:
+    use_entities: true
+- consulta_orden_pago_respuesta:
+    use_entities: true
+- consulta_formato_solicitud_constancia_de_notas:
+    use_entities: true
+- consulta_encargado_recepcion_solicitud_constancia_notas:
+    use_entities: true
+- saludo_y_consulta_constancia_de_estudios_procedimiento:
+    use_entities: true
+- consulta_formato_solicitud_constancia_estudios:
+    use_entities: true
+- consulta_constancia_egresado_pago:
+    use_entities: true
+- consulta_contacto_mesa_partes:
+    use_entities: true
+- consulta_solicitar_constancia_ayudantia_academica:
+    use_entities: true
+- consulta_estudio_curricular:
+    use_entities: true
+- consulta_ayudantia_academica_procedimiento:
+    use_entities: true
+- saludo_y_consulta_traslado_interno:
+    use_entities: true
+- confirmacion:
+    use_entities: true
+- consulta_bachiller_pago:
+    use_entities: true
+- consulta_deuda_credito 2da profesión:
+    use_entities: true
+- saludo_y_consulta_practica_pre_profesionales_academica_procedimiento:
+    use_entities: true
+- saludo_y_consulta_residencia_universitaria_procedimiento:
+    use_entities: true
+- saludo_y_consulta_constancia _egresado_procedimiento:
+    use_entities: true
+- consulta_pago_carnet_procedimiento:
+    use_entities: true
+- saludo_y_consulta_entrega_carnet_resagada:
+    use_entities: true
+- saludo_y_consulta_estado_tramites:
+    use_entities: true
+- consulta_solicitud_matricula_curso_y_pre_requisito:
+    use_entities: true
+- consulta_encargado_solicitud_matricula_curso_y_pre_requisito:
+    use_entities: true
+- consulta_maximo_creditos_matricula_alumno_por_egresar:
+    use_entities: true
+- saludo_y_consulta_matricula_creditos_adicionales:
+    use_entities: true
+- saludo_y_consulta_matricula_pago_autoseguro_fuera_fecha:
+    use_entities: true
+- saludo_y_consulta_convalidacion_practicas_preprofesionales_procedimiento:
+    use_entities: true
+- consulta_solicitud_correo_institucional_procedimiento:
+    use_entities: true
+- consulta_matricula_pago_autoseguro_fuera_fecha:
+    use_entities: true
+- consulta_solicitud_constancia_matricula_procedimiento:
+    use_entities: true
+- consulta_correo_institucional_olvido_contrasena:
+    use_entities: true
+- saludo_y_consulta_numero_creditos_electivos_requeridos:
+    use_entities: true
+- saludo_y_consulta_matricula_rezagado_procedimiento_incompleto:
+    use_entities: true
+- consulta_matricula_rezagado_procedimiento_incompletos:
+    use_entities: true
+- saludo_y_consulta_retiro_parcial_fechas:
+    use_entities: true
+- consulta_retiro_total_procedimiento:
+    use_entities: true
+- consulta_retiro_total_fechas:
+    use_entities: true
+- consulta_retiro_parcial_unico_curso:
+    use_entities: true
+- consulta_motivos_procede_retiro_total:
+    use_entities: true
+- consulta_retiro_total_requisitos_documentos_justificacion:
+    use_entities: true
+- consulta_retiro_total_requisitos:
+    use_entities: true
+- consulta_retiro_total_lugar_recepcion_documentos:
+    use_entities: true
+- saludo_y_consulta_retiro_parcial_requisitos_documentos:
+    use_entities: true
+- consulta_retiro_parcial_requisitos_documentos:
+    use_entities: true
+- consulta_retiro_parcial_cursos_repetidos:
+    use_entities: true
+- consulta_retiro_parcial_maximo_cursos:
+    use_entities: true
+- consulta_retiro_parcial_procedimiento_verificacion:
+    use_entities: true
+- saludo_y_consulta_retiro_parcial_procedimiento:
+    use_entities: true
+- saludo_y_consulta_retiro_parcial_estado:
+    use_entities: true
+- saludo_y_consulta_retiro_total_procedimiento:
+    use_entities: true
+- saludo_y_consulta_retiro_parcial_procedimiento_verificacion:
+    use_entities: true
+- saludo_y_consulta_retiro_parcial_electivo:
+    use_entities: true
+- consulta_problemas_realizar_retiro_total_primera:
+    use_entities: true
+- saludo_y_consulta_problemas_realizar_retiro_parcial_primera:
+    use_entities: true
+- consulta_problemas_realizar_retiro_parcial_primera:
+    use_entities: true
+- consulta_problemas_realizar_retiro_parcial_segunda:
+    use_entities: true
+- saludo_y_consulta_retiro_parcial_unico_curso:
+    use_entities: true
+- saludo_y_consulta_constancia_notas_procedimiento:
+    use_entities: true
+- saludo_y_consulta_entrega_carnet_rezagada:
+    use_entities: true
+- saludo_y_consulta_retiro_total_requisitos:
+    use_entities: true
+- consulta_matricula_rezagado_procedimiento_incompleto:
+    use_entities: true
+- consulta_confirmacion_retiro_parcial_procedimiento_solo_digital:
+    use_entities: true
+- consulta_formato_solicitud_reserva_matricula:
+    use_entities: true
+- consulta_retiro_parcial_estado:
+    use_entities: true
+- saludo_y_consulta_retiro_total_fechas:
+    use_entities: true
+- saludo_y_consulta_estado_tramites_reincorporacion:
+    use_entities: true
+- consulta_reincorporacion_costo:
+    use_entities: true
+- saludo_y_consulta_confirmacion_retiro_parcial_procedimiento_solo_digital:
+    use_entities: true
+- saludo_y_consulta_reserva_matricula_procedimiento:
+    use_entities: true
+entities: []
+slots: {}
+responses:
+  utter_bienvenida:
+  - text: Hola 👋, soy Ciencito 🤖!, FC me creo para ayudarte a resolver tus dudas o consultas
+  utter_funcionalidades:
+  - text: Puedo ayudarte a resolver tus o consultas sobre temas de matricula, procedimientos y tramites
+  utter_saludo:
+  - text: Hola 👋, soy un asistente virtual 🤖 , puedo ayudarte a resolver tus dudas.
+  - text: Hola 👋, soy Ciencito 🤖 FC me creo para ayudarte a resolver tus consultas
+  utter_saludo2:
+  - text: Hola 👋, dime ¿En qué puedo ayudarte?
+  utter_requerir_consulta:
+  - text: Dime, ¿Cual es tu consulta?
+  - text: Dime, ¿En qué puedo ayudarte?
+  utter_requerir_mas:
+  - text: ¿Puedo ayudarte con algo mas?
+  utter_despedida:
+  - text: Muchas gracias por la visita. !Qué tengas un buen día!
+  - text: Gracias por la visita. !Qué tengas un buen día!
+  - text: Estamos para ayudarte, !Que tengas un buen dia
+  - text: Un gusto charlar contigo!, si necesitas algo mas solo enviame un mensaje
+  utter_saludo_informar_matricula_cronograma:
+  - text: El calendario de dicha actividad se encuentra publicada en la página [web de la Facultad](https://fc.uni.edu.pe/wp-content/uploads/2021/06/CronogramaIngresantes.pdf)
+  utter_informar_matricula_cronograma:
+  - text: El calendario de dicha actividad se encuentra publicada en la página [web de la Facultad](https://fc.uni.edu.pe/wp-content/uploads/2021/06/CronogramaIngresantes.pdf)
+  utter_informar_matricula_horarios:
+  - text: La fecha y el horario de matricula depende del orden de mérito obtenido de sus dos últimos periodos y puede verlo entrando a intranet alumnos de [ORCE](https://www.orce.uni.edu.pe/).
+  utter_saludo_informar_matricula_horarios:
+  - text: La fecha y el horario de matricula depende del orden de mérito obtenido de sus dos últimos periodos y puede verlo entrando a intranet alumnos de [ORCE](https://www.orce.uni.edu.pe/).
+  utter_agradecimiento_y_requerir_mas:
+  - text: No hay problema, ¿Hay algo mas en lo que pueda ayudarte?
+  - text: De nada, ¿Hay algo mas en lo que pueda ayudarte?
+  utter_informar_cursos_horarios:
+  - text: Los horarios están disponibles en la zona intranet alumno y tambien en la [página web de la FC](https://fc.uni.edu.pe/documentos/)
+  utter_saludo_informar_cursos_horarios:
+  - text: Los horarios están disponibles en la zona intranet alumno y tambien en la [página web de la FC](https://fc.uni.edu.pe/documentos/)
+  utter_informar_reserva_matricula_procedimiento:
+  - text: La reserva de matricula significa que no se matriculará en el periodo académico próximo a habilitarse. Para ello debe presentar una solicitud dirigida al decano, la cual podrá subir ingresando a la zona de intranet alumno en el modulo de RESERVA DE MATRICULA. Más detalles sobre el procedimiento puede encontrarlo en el siguiente enlace  https://fc.uni.edu.pe/wp-content/uploads/2021/06/reservadematricula.pdf
+  utter_saludo_informar_reserva_matricula_procedimiento:
+  - text: La reserva de matricula significa que no se matriculará en el periodo académico próximo a habilitarse. Para ello debe presentar una solicitud dirigida al decano, la cual podrá subir ingresando a la zona de intranet alumno en el modulo de RESERVA DE MATRICULA. Más detalles sobre el procedimiento puede encontrarlo en el siguiente enlace https://fc.uni.edu.pe/wp-content/uploads/2021/06/reservadematricula.pdf
+  utter_informar_reserva_matricula_fechas:
+  - text: La solicitud debe ser enviada hasta una semana antes de inicio de la proxima matricula.
+  utter_informar_horario_atencion:
+  - text: El horario de atencion de la oficina de estadistica es de 8:00 am a 4:00 pm
+  utter_saludo_informar_reincorporacion_procedimiento:
+  - text: Estimado alumno, para realizar la reincoporacion debera tramitar su solitud de reicorporacion dirigida al decano que debera enviar al correo o platforma ....... (Completar) , ademas de realizar el pago en caja uni de .. (Completar)
+  utter_saludo_informar_reglamento_matricula_curso_y_pre_requisito:
+  - text: Si es posible siempre y cuando a la fecha de la matrícula te falte a lo más 30 créditos de su plan de estudios para egresar; puede llevar una asignatura con su pre requisito y debes tener un promedio ponderando acumulado mayor o igual a diez en los dos últimos periodos académicos regulares.
+  utter_saludo_informar_solicitud_constancia_matricula_procedimiento:
+  - text: Debe elaborar una solicitud y tener presente que hacer entrega de una constancia que certifica que el estudiante está matriculado en el ciclo correspondiente, especifica el año o ciclo en que se encuentra el estudiante de su carrera profesional y el número total de créditos matriculados.
+  utter_informar_solicitud_constancia_matricula_procedimiento:
+  - text: Debe elaborar una solicitud y tener presente que hacer entrega de una constancia que certifica que el estudiante está matriculado en el ciclo correspondiente, especifica el año o ciclo en que se encuentra el estudiante de su carrera profesional y el número total de créditos matriculados.
+  utter_informar_formato_solicitud_constancia_matricula:
+  - text: 'Puede descargar el formato de solicitud ingresando al siguiente [here] (link: https://fc.uni.edu.pe/wp-content/uploads/2021/06/contanciadematricula.pdf)'
+  utter_informar_pago_solicitud_constancia_matricula_:
+  - text: La constancia de matricula tiene un costo de 32 soles.
+  utter_saludo_informar_pasa_a_matricula_resegada:
+  - text: La matrícula de los alumnos regulares se ha programado en dos fechas (revise la publicación en la página de la facultad de Ciencias) si por algún motivo no logró matricularse en su fecha de matrícula debe realizar la matricula por rezagado.
+  utter_informar_matricula_rezagado_pago_procedimiento:
+  - text: En la pagina web encontrará el formulario para generar una orden de pago por concepto de rezagado en el BCP
+  utter_saludo_informar_matricula_rezagado_pago_procedimiento:
+  - text: En la pagina web encontrará el formulario para generar una orden de pago por concepto de rezagado en el BCP
+  utter_informar_formulario_problemas_matricula:
+  - text: Todo lo concerniente a problemas de matrícula son atendidos por el formulario "problemas de matrícula" que lo encontrará publicado en la pagina web de la Facultad
+  utter_informar_proceso_solicitud_vacantes:
+  - text: Puede iniciar el proceso para solicitar vacantes comuniquese con AERA para mayor informacio.
+  utter_informar_atencion_solicitud_vacantes_orden_llegada:
+  - text: Estimado alumno le perdiria ser paciente se estan atendiendo las solicitudes de acuerdo a la fecha de recepción.
+  utter_saludo_informar_formulario_problemas_matricula:
+  - text: Todo lo concerniente a problemas de matrícula son atendidos por el formulario "problemas de matrícula" que lo encontrará publicado en la pagina web de la Facultad
+  utter_informar_cambio_seccion_procedimiento:
+  - text: Estimado alumno, el cambio de sección se atenderá solo si es que presenta cruces, debe llenar el formulario de "Problemas en la matrícula" que se encuentra en la pagina web para que su caso sea revisado.
+  utter_informar_tiempo_respuesta_formulario:
+  - text: Le pediría ser paciente, los formularios estan siendo atendidos por orden de llegada. En todo caso podria comunicarse directamente con AERA para que analicen su caso.
+  utter_saludo_informar_perdida_turno_pasa_a_matricula_rezagado:
+  - text: Estimado alumno, si el sistema ya no le habilita para realizar su matricula por perdida de su turno de matrícula, usted pasará a MATRICULA DE REZAGADOS, el detalle del procedimiento esta en la pagina web de la Facultad.
+  utter_informar_perdida_turno_pasa_a_matricula_rezagado:
+  - text: Estimado alumno, si el sistema ya no le habilita para realizar su matricula por perdida de su turno de matrícula, usted pasará a MATRICULA DE REZAGADOS, el detalle del procedimiento esta en la pagina web de la Facultad.
+  utter_saludo_informar_retiro_parcial_procedimiento:
+  - text: El procedimiento de retiro parcial se realiza por el mismo intranet alumno, solo debe encontrar la opción de retiro parcial el la seccion de mis tramites y seleccionar el curso o los cursos del cual desea retirarse. Luego de finalizada la semana de retiro AERA se encarga de revisar y ORCE de ejecutar el retiro.
+  utter_informar_retiro_parcial_procedimiento:
+  - text: El procedimiento de retiro parcial se realiza por el mismo intranet alumno, solo debe encontrar la opción de retiro parcial el la seccion de mis tramites y seleccionar el curso o los cursos del cual desea retirarse. Luego de finalizada la semana de retiro AERA se encarga de revisar y ORCE de ejecutar el retiro.
+  utter_informar_retiro_parcial_fechas:
+  - text: Los retiros parciales se realizan en la 5ta semana de clases.
+  utter_informar_verificacion_requistos_matricula_y_formulario:
+  - text: Si tiene problemas para realizar su matricula revisar primero si no tiene deuda alguna registrado en el sistema o no pagó el autoseguro con 72 horas de anticipación, en todo caso, registre su reclamo en el formulario "problema de matrícula"
+  utter_informar_pago_fuera_fecha_pasa_a_rezagados:
+  - text: En caso no realizo el pago de autoseguro con 03 días de anticipación le informo que pasara a MATRICULA DE REZAGADOS, el detalle sobre ese procedimiento lo encontrara en pagina web de la Facultad.
+  utter_comuniquese_area_encargada:
+  - text: Disculpe no puedo ayudarle mas, por favor comuniquese directamente con el area correspondiento para una atencion especial.
+  utter_informar_horario_cursos:
+  - text: Los horarios están disponibles en la zona intranet alumno y tambien en la [página web de la FC](https://fc.uni.edu.pe/documentos/)
+  utter_informar_atencion_virtual:
+  - text: Por la conyuntura AERA también esta trabajando de modo virtual.
+  utter_requirir_especificacion:
+  - text: Claro, dime que necesitas saber
+  utter_informar_horario_atencion_mesa_partes_recepcion_documentos:
+  - text: La recepción de documentos es de lunes a viernes de 8:30am a 03:00pm
+  utter_informar_recepcion_documentos_fuera_horario:
+  - text: Pasado el horario, la documentación podrá ser presentada, pero se dará por recibida a partir del día hábil siguiente.
+  utter_informar_pago_autoseguro_fuera_fecha_pasa_a_rezagados:
+  - text: Le informo que segun el reglamento el pago de autoseguro debe realizarse con 72 horas de antelacion a su matricula (no se cuenta sábado ni domingo) de otra manera su matricula pasara a ser rezagada. Puede comprobarlo solo ingresando al sistema de matricula.
+  utter_informar_constancia_notas_procedimiento:
+  - text: Para solicitar la constancia de notas debe enviar al correo de mesa de partes (mesadepartes_fc@uni.edu.pe) el comprobante de pago y su solicitud. La constancia de notas puede ser generada por AERA en espanol e ingles.
+  utter_informar_solicitud_certificado_tercio_quinto_o_decimo_superior_procedimiento:
+  - text: Las constancias de Quinto y/o Tercio Superior los emite la Esculeas Profesionales correspondientes, ellos les darán el detalle para dicho trámite.
+  utter_informar_reincorporacion_procedimiento:
+  - text: Estimado alumno, para realizar la reincoporacion debera tramitar su solitud de reicorporacion dirigida al decano que debera enviar al correo o platforma ....... (Completar)
+  utter_informar_reincorporacion_rezagada:
+  - text: Si se pasó de la fecha de reincorporación establecido para este periodo, tendrá que esperar el calendario académico del siguiente periodo para realizar el trámite
+  utter_informar_contacto_tutoria:
+  - text: Para deudas con tutoría debe escribir al correo tutoria.fc@uni.edu.pe
+  utter_informar_orden_de_pago_procedimiento:
+  - text: Debe enviar un correo electrónico a estadistica_fc@uni.edu.pe colocando en el asunto que solicita orden de pago y en el cuerpo del mensaje debe indicar sus datos personales, número de DNI y domicilio actual.
+  utter_informar_tiempo_formar_respuesta_orden_pago:
+  - text: El sistema le enviará a su correo institucional un código ID con el cual usted podrá realizar el pago en el aplicativo del BCP.
+  utter_informar_formato_solicitud_constancia_de_notas:
+  - text: 'Puede descargarlo desde el siguiente link: https://fc.uni.edu.pe/fc/index.php/estadistica/formatos/constancia-de-notas'
+  utter_informar_encargado_recepcion_solicitud_constancia_notas:
+  - text: Enviar al correo de mesa de partes (mesadepartes_fc@uni.edu.pe) el comprobante de pago y solicitud
+  utter_saludo_informar_constancia_notas_procedimiento:
+  - text: Este es el procedimiento consultado
+  utter_informar_formato_solicitud_constancia_estudios:
+  - text: 'Puede descargarlo ingresando al link: https://fc.uni.edu.pe/fc/index.php/estadistica/formatos/constancia-de-matricula'
+  utter_informar_constancia_egresado_pago_procedimiento:
+  - text: En el caso de pago por Constancia de Egresado el trámite inicia por ORCE, para mayor información puede escribir al correo de Mesa de Partes Virtual de ORCE
+  utter_informar_contacto_mesa_partes:
+  - text: Por supuesto, escriba a mesadepartesorce@uni.edu.pe
+  utter_afirmacion_y_requerir_consulta:
+  - text: Si digame.
+  - text: Por supuesto, digame su duda.
+  - text: Claro, dime cual es tu consulta
+  utter_saludo_informar_pago_autoseguro_procedimiento:
+  - text: Para realizar el pago de autoseguro debera acercarse al Banco Scotiabank . Si es alumno regular podra pagar solo con su codigo de alumno. Si es ingresante debera acercase al banco con la orden de pago debidamente llenada. Puedo ver el procedimiento completo en el [diagrama de matricula](https://fc.uni.edu.pe/wp-content/uploads/2021/06/DiagramadelProceso.pdf) en la pagina la facultad.
+  utter_informar_pago_autoseguro_fechas:
+  - text: Le informo que segun el reglamento el pago de autoseguro debe realizarse con 72 horas de antelacion a su matricula (no se cuenta sábado ni domingo) de otra manera su matricula pasara a ser rezagada. Puede comprobarlo solo ingresando al sistema de matricula.
+  utter_requirir_mas:
+  - text: ¿Hay algo mas en lo que pueda ayudarte?
+  utter_saludo_informar_matricula_pago_autoseguro_fuera_fecha:
+  - text: Los alumnos que no registraron su matrícula en las fechas señaladas realizarán el pago por concepto de REZAGADOS, debera solicitar una orden de pago ingresando tus datos al formulario publicado en la página de la facultad (avisos), luego ingresar al aplicativo del banco BCP para realizar el pago por rezagado. Posteriormente se habilitara la ficha de matricula en el sistema de matricula.
+  utter_sugerir_contactar_oficina:
+  - text: Disculpe no puedo ayudarle mas, por favor comuniquese directamente con el area correspondiento para resolver su consulta.
+  utter_informar_pago_autoseguro_procedimiento:
+  - text: Para realizar el pago de autoseguro debera acercarse al Banco Scotiabank . Si es alumno regular podra pagar solo con su codigo de alumno. Si es ingresante debera acercase al banco con la orden de pago debidamente llenada. Puedo ver el procedimiento completo en el [diagrama de matricula](https://fc.uni.edu.pe/wp-content/uploads/2021/06/DiagramadelProceso.pdf) en la pagina la facultad.
+  utter_saludo_informar_matricula_rezagado_procedimiento_posterior_pago:
+  - text: Una vez realizado el pago, debe subir sus recibos de autoseguro y rezagado al formulario indicado en el mismo comunicado de rezagados publicado en la página de la facultad, de esta forma se le habilitará la matrícula.
+  utter_informar_matricula_rezagado_procedimiento_posterior_pago:
+  - text: Una vez realizado el pago, debe subir sus recibos de autoseguro y rezagado al formulario indicado en el mismo comunicado de rezagados publicado en la página de la facultad, de esta forma se le habilitará la matrícula.
+  utter_informar_matricula_rezagada:
+  - text: Lo primero que debe hacer es solicitar una orden de pago y luego registrar su matrícula en la fecha programada para rezagado. Los detalles lo encontrará en la página web de la Facultad
+  utter_informar_formato_solicitud_reserva_matricula:
+  - text: 'Puede descargar el formato de solicitud ingresando al siguiente link: https://fc.uni.edu.pe/wp-content/uploads/2021/06/solicituddereservadematrcula.pdf'
+  utter_informar_reincorporacion_fechas:
+  - text: Debe realizar el tramite con una anticipación no menor a 10 dias antes del inicio de la matricula, encontrara las fechas en el calendario académico.
+  utter_informar_formato_solicitud_reincorporacion:
+  - text: 'Puede descargar el formato de solicitud ingresando al siguiente link: https://fc.uni.edu.pe/wp-content/uploads/2021/06/solicituddereincorporacion.pdf'
+  utter_saludo_informar_retiro_parcial_fechas:
+  - text: Los retiros parciales se realizan en la 5ta semana de clases, puede ver las fechas dentro del calendario académico el cual se encuentra publicado en la página web de la Facultad
+  utter_informar_reglamento_retiro_parcial_cursos_repetidos:
+  - text: No. El reglamento indica que el retiro parcial procede para las asignaturas más avanzadas y no para las del ciclo más atrasado o repetidas dos o más veces.
+  utter_informar_retiro_total_lugar_recepcion_documentos:
+  - text: La solicitud y documentos justificatorios se registran por medio del mismo sistema ORCE, luego el director de la Escuela Profesional evaluará si cumple con los motivos estipulados para aprobar o no el pedido.
+  utter_informar_retiro_total_requisitos:
+  - text: Para realizar el retiro total debera presentar la solicitud del retiro total dirigida al decano de la facultad. Ademas, debe tomar en cuenta que procedera solo por motivos de fuerza mayor que debera justificar con documentos.  El procedimiento lo encontrará en el módulo de procedimientos de la pagina web de la Facultad.
+  utter_saludo_informar_retiro_total_requisitos:
+  - text: Para realizar el retiro total debera presentar la solicitud del retiro total dirigida al decano de la facultad. Ademas, debe tomar en cuenta que procedera solo por motivos de fuerza mayor que debera justificar con documentos.  El procedimiento lo encontrará en el módulo de procedimientos de la pagina web de la Facultad.
+  utter_informar_motivos_procede_retiro_total:
+  - text: |-
+      El retiro total procede por motivos de fuerza mayor 
+      	1. Viaje al extranjero 
+      	2. Accidente limitante 
+      	3. Enfermedad limitante 
+      	4. Emergencia familiar limitante 
+      	5. Afectación limitante por COVID-19 (Incluye alumnos separados por un 1año)
+  utter_saludo_informar_estado_tramites_reincorparacion:
+  - text: Terminada la fecha de recepción de las solicitudes por reincorporación los Directores de las Escuelas se encargarán de revisar y registrar en el sistema si procede o no la solicitud
+  utter_informar_estado_tramites_reincorparacion:
+  - text: Terminada la fecha de recepción de las solicitudes por reincorporación los Directores de las Escuelas se encargarán de revisar y registrar en el sistema si procede o no la solicitud
+  utter_informar_reincorporacion_costo:
+  - text: Alguna consulta sobre el formato de solicitud de reincorporacion
+  utter_saludo_informar_procedimiento_solo_digital:
+  - text: El prodecidimiento de retiro parcial solo se realiza a través del sistema de intranet alumno ORCE, si ya lo realizo luego de finalizada la semana de retiro AERA se encarga de revisar y ORCE de ejecutar el retiro.
+  utter_informar_procedimiento_solo_digital:
+  - text: El prodecidimiento de retiro parcial solo se realiza a través del sistema de intranet alumno ORCE, si ya lo realizo luego de finalizada la semana de retiro AERA se encarga de revisar y ORCE de ejecutar el retiro.
+  utter_informar_retiro_parcial_requisitos_documentos:
+  - text: En el caso de retiro parcial no hay necesidad enviar algun documento, se viene trabajando solo con lo registrado en el sistema de intranet alumno de ORCE.
+  utter_saludo_informar_retiro_parcial_requisitos_documentos:
+  - text: En el caso de retiro parcial no hay necesidad enviar algun documento, se viene trabajando solo con lo registrado en el sistema de intranet alumno de ORCE.
+  utter_informar_requisitos_documentos_justificacion:
+  - text: Sí. Es necesario que justifique con documentos.
+  utter_informar_reglamento_retiro_parcial_electivo:
+  - text: En este momento no puedo responder su consulta, le sugiero que ingrese a la página web de la Facultad, sección AERA y seleccione Procedimientos para encontrar mas informacion sobre los reglamentos de los procedimientos.
+  utter_informar_estado_retiro_parcial_procesado:
+  - text: Despues de haber culminado la semana de retiro, todos los casos registrados en el sistema son revisados por AERA , ejecutado por ORCE y actualizado (el curso se verá con la sigla R que significa retiro parcial)
+  utter_saludo_informar_estado_retiro_parcial_procesado:
+  - text: Despues de haber culminado la semana de retiro, todos los casos registrados en el sistema son revisados por AERA , ejecutado por ORCE y actualizado (el curso se verá con la sigla R que significa retiro parcial)
+  utter_saludo_informar_retiro_unico_curso_procedimiento:
+  - text: Si esta inscrito en un solo curso y deseas retirarte, el procedimiento se llama retiro total, mayor información lo encontrara en el módulo de procedimientos de la página web.
+  utter_informar_retiro_unico_curso_procedimiento:
+  - text: Si esta inscrito en un solo curso y deseas retirarte, el procedimiento se llama retiro total, mayor información lo encontrara en el módulo de procedimientos de la página web.
+  utter_informar_retiro_parcial_maximo_cursos:
+  - text: Se puede solicitar el retiro parcial de hasta tres (03) asignaturas. Pero en caso este matriculado en tres o menos cursos no puede solicitar retiro de todos sus cursos, ya que ello se denomina retiro total.
+  utter_informar_primera_accion_problemas_realizar_retiro_parcial:
+  - text: Primero debe verificar si su solicitud esta acorde con lo permitido en el reglamento de matrícula vigente y se encuentra dentro de las fechas de retiro parcial del calendario academico. Tambien debe tomar en cuenta que no puede solicitar el retiro parcial de todos sus cursos, ya que ello se denomina retiro total.
+  utter_saludo_informar_primera_accion_problemas_realizar_retiro_parcial:
+  - text: Primero debe verificar si su solicitud esta acorde con lo permitido en el reglamento de matrícula vigente y se encuentra dentro de las fechas de retiro parcial del calendario academico. Tambien debe tomar en cuenta que no puede solicitar el retiro parcial de todos sus cursos, ya que ello se denomina retiro total.
+  utter_informar_segunda_accion_problemas_realizar_retiro_parcial:
+  - text: Si el problema persiste porfavor enviar un correo a la dirección de la Escuela Profesional a la que corresponde, para que analicen su pedido.
+  utter_saludo_informar_retiro_total_fechas:
+  - text: El retiro total se realiza durante la 14va semana de clases, encontrará las fechas exactas dentro del calendario académico publicado en la pagina de la facultad.
+  utter_informar_retiro_total_fechas:
+  - text: El retiro total se realiza durante la 14va semana de clases, encontrará las fechas exactas dentro del calendario académico publicado en la pagina de la facultad.
+  utter_informar_primera_accion_problemas_realizar_retiro_total:
+  - text: Primero debe verificar si su solicitud esta acorde con lo permitido en el reglamento de matrícula vigente y se encuentra dentro de las fechas de retiro total del calendario academico.
+  utter_informar_segunda_accion_problemas_realizar_retiro_total:
+  - text: Si el problema persiste porfavor enviar un correo a la dirección de la Escuela Profesional a la que corresponde, para que analicen su pedido.
+  utter_informar_formato_solicitud_retiro_total:
+  - text: Puede encontrar el procedimiento y el formato de solicitud aquí https://fc.uni.edu.pe/wp-content/uploads/2021/06/FormatoUnicoparaRetiroTotal_2.pdf
+  utter_saludo_informar_retiro_total_procedimiento:
+  - text: Primero informale que el procedimiento de retiro total es autorizado solo por motivos de fuerza mayor, los cuales deben ser sustentados. Para realizar el retiro debera presentar la solicitud del retiro total dirigida al decano de la facultad y sus documentos para justificar sus motivos atraves del sistema intranet alumno.
+  utter_informar_retiro_total_procedimiento:
+  - text: Primero informale que el procedimiento de retiro total es autorizado solo por motivos de fuerza mayor, los cuales deben ser sustentados. Para realizar el retiro debera presentar la solicitud del retiro total dirigida al decano de la facultad y sus documentos para justificar sus motivos atraves del sistema intranet alumno.
+  utter_informar_solicitud_correo_institucional_procedimiento:
+  - text: es CTIC la ofina encargada del correo institucional, ingrese a https://www.uni.edu.pe/index.php/2015-05-28-20-25-15/obten-tu-correo-uni
+  utter_saludo_informar_horario_entrega_carnet_rezagada:
+  - text: La entrega de carnet es personal y se realiza en nuestro horario de atención presencial los martes de 11:00 a 13:00 y jueves de 09:00 a 11:00.
+actions:
+- action_question_answering_system
+forms: {}
+e2e_actions: []

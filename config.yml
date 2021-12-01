@@ -1,0 +1,17 @@
+language: es
+pipeline:
+  - name: WhitespaceTokenizer
+  - name: LanguageModelFeaturizer
+    model_name: bert
+    model_weights: "bert-base-multilingual-cased"
+  - name: RegexFeaturizer
+  - name: DIETClassifier
+    epochs: 200
+  - name: ResponseSelector
+  - name: EntitySynonymMapper
+policies:
+  - name: MemoizationPolicy
+  - name: TEDPolicy
+    max_history: 8
+    epochs: 200
+  - name: RulePolicy

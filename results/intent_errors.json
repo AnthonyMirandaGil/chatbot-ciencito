@@ -1,0 +1,1042 @@
+[
+  {
+    "text": "buenas noches",
+    "intent": "despedida",
+    "intent_prediction": {
+      "name": "saludo",
+      "confidence": 0.9940023422241211
+    }
+  },
+  {
+    "text": "como es el procedimiento para la matricula rezagada",
+    "intent": "saludo_y_consulta_matricula_rezagada_procedimiento",
+    "intent_prediction": {
+      "name": "consulta_matricula_rezagada_procedimiento",
+      "confidence": 0.9030416011810303
+    }
+  },
+  {
+    "text": "ninguna duda mas",
+    "intent": "denegar_mas_ayuda",
+    "intent_prediction": {
+      "name": "confirmar_requerir_mas_ayuda",
+      "confidence": 0.41245922446250916
+    }
+  },
+  {
+    "text": "Oye porfa dime cuando es la matriculas",
+    "intent": "saludo_y_consulta_matricula_cronograma",
+    "intent_prediction": {
+      "name": "consulta_matricula_cronograma",
+      "confidence": 0.48308107256889343
+    }
+  },
+  {
+    "text": "quiero saber el cronograma de matricula",
+    "intent": "consulta_matricula_cronograma",
+    "intent_prediction": {
+      "name": "consulta_horario_cursos",
+      "confidence": 0.4181477129459381
+    }
+  },
+  {
+    "text": "si, quiero saber cuales son los horarios de la matricula",
+    "intent": "consulta_matricula_horarios",
+    "intent_prediction": {
+      "name": "saludo_y_consulta_matricula_horarios",
+      "confidence": 0.3451557159423828
+    }
+  },
+  {
+    "text": "que pasa si no pago el autoseguro a tiempo",
+    "intent": "consulta_matricula_pago_autoseguro_fechas",
+    "intent_prediction": {
+      "name": "consulta_matricula_pago_autoseguro_fuera_fecha",
+      "confidence": 0.7101563811302185
+    }
+  },
+  {
+    "text": "entiendo estos si pago hoy paso a rezagado",
+    "intent": "consulta_matricula_pago_autoseguro_fechas",
+    "intent_prediction": {
+      "name": "consulta_matricula_pago_autoseguro_fuera_fecha",
+      "confidence": 0.3931092917919159
+    }
+  },
+  {
+    "text": "me han dicho que debo solicitar una orden pago para la matricula por rezagado, como puedo generarlo ?",
+    "intent": "consulta_matricula_rezagado_pago_procedimiento",
+    "intent_prediction": {
+      "name": "saludo_y_consulta_matricula_rezagado_pago_procedimiento",
+      "confidence": 0.38864004611968994
+    }
+  },
+  {
+    "text": "cual es el numero de estadistica",
+    "intent": "consulta_contacto_aera",
+    "intent_prediction": {
+      "name": "consulta_matricula_cronograma",
+      "confidence": 0.4002550542354584
+    }
+  },
+  {
+    "text": "Hola, si perdi mi turno pasaría ha rezagado entonces ?",
+    "intent": "saludo_y_consulta_perdida_turno_matricula",
+    "intent_prediction": {
+      "name": "consulta_perdida_turno_matricula",
+      "confidence": 0.49627313017845154
+    }
+  },
+  {
+    "text": "no vi el horario y se me paso mi turno de matricuarme como hago ahora para matricuarme",
+    "intent": "consulta_perdida_turno_matricula",
+    "intent_prediction": {
+      "name": "saludo_y_consulta_perdida_turno_matricula",
+      "confidence": 0.9605379104614258
+    }
+  },
+  {
+    "text": "como debo solicitar la reincoporacion",
+    "intent": "consulta_reincorporacion_procedimiento",
+    "intent_prediction": {
+      "name": "consulta_formato_solicitud_reincorporacion",
+      "confidence": 0.3549796938896179
+    }
+  },
+  {
+    "text": "entiendo lo haré",
+    "intent": "confirmacion",
+    "intent_prediction": {
+      "name": "despedida",
+      "confidence": 0.34054386615753174
+    }
+  },
+  {
+    "text": "Hola Ciencito, tengo una consulta si no pago el autoseguro con los 3 dias de anticipación pasare a resagado ?",
+    "intent": "saludo_y_consulta_matricula_pago_autoseguro_fuera_fecha",
+    "intent_prediction": {
+      "name": "consulta_matricula_pago_autoseguro_fuera_fecha",
+      "confidence": 0.6358107924461365
+    }
+  },
+  {
+    "text": "entonces si lo pago hoy me voy a rezagado mi matricula",
+    "intent": "consulta_matricula_pago_autoseguro_fuera_fecha",
+    "intent_prediction": {
+      "name": "consulta_matricula_rezagado_pago_procedimiento",
+      "confidence": 0.3572899401187897
+    }
+  },
+  {
+    "text": "Buenos días, la matrícula en mi horario se me pasó, así que realicé el pago por rezagados, pero no puedo ingresar a la matrícula",
+    "intent": "saludo_y_consulta_matricula_rezagado_procedimiento_incompleto",
+    "intent_prediction": {
+      "name": "saludo_y_consulta_problemas_matricula",
+      "confidence": 0.27751436829566956
+    }
+  },
+  {
+    "text": "Hola, que tal realize el pago por resagado pero no que mas hacer",
+    "intent": "saludo_y_consulta_matricula_rezagado_procedimiento_incompleto",
+    "intent_prediction": {
+      "name": "consulta_matricula_rezagado_procedimiento_incompleto",
+      "confidence": 0.46015051007270813
+    }
+  },
+  {
+    "text": "Hola, dime a quien debo enviar el voucher de pago de matricula rezagada",
+    "intent": "saludo_y_consulta_matricula_rezagado_procedimiento_incompleto",
+    "intent_prediction": {
+      "name": "saludo_y_consulta_matricula_rezagado_pago_procedimiento",
+      "confidence": 0.27706199884414673
+    }
+  },
+  {
+    "text": "ok ahora entonces como pago por rezaga pudes explicarme",
+    "intent": "consulta_matricula_rezagado_procedimiento_incompleto",
+    "intent_prediction": {
+      "name": "saludo_y_consulta_matricula_rezagado_pago_procedimiento",
+      "confidence": 0.29986777901649475
+    }
+  },
+  {
+    "text": "Hola, una duda estamos en la cuarta semana de clases puedo hacer el retiro parcial?",
+    "intent": "saludo_y_consulta_retiro_parcial_fechas",
+    "intent_prediction": {
+      "name": "consulta_retiro_parcial_fechas",
+      "confidence": 0.5591714978218079
+    }
+  },
+  {
+    "text": "Si he repetido un curso en el ciclo paso puedo retirarme en este ciclo de este curso?",
+    "intent": "consulta_retiro_parcial_cursos_repetidos",
+    "intent_prediction": {
+      "name": "saludo_y_consulta_reincorporacion_procedimiento",
+      "confidence": 0.36053550243377686
+    }
+  },
+  {
+    "text": "chau",
+    "intent": "despedida",
+    "intent_prediction": {
+      "name": "saludo",
+      "confidence": 0.3816763162612915
+    }
+  },
+  {
+    "text": "cual es el procedimiento para la matricula rezagada",
+    "intent": "consulta_matricula_rezagada_procedimiento",
+    "intent_prediction": {
+      "name": "saludo_y_consulta_matricula_rezagada_procedimiento",
+      "confidence": 0.8625427484512329
+    }
+  },
+  {
+    "text": "ahora que mi matricula paso a rezagados que debo hacer no entiendo",
+    "intent": "consulta_matricula_rezagada_procedimiento",
+    "intent_prediction": {
+      "name": "saludo_y_consulta_matricula_rezagada_procedimiento",
+      "confidence": 0.9205277562141418
+    }
+  },
+  {
+    "text": "eso es todo gracias",
+    "intent": "denegar_mas_ayuda",
+    "intent_prediction": {
+      "name": "agradecimiento",
+      "confidence": 0.9869896769523621
+    }
+  },
+  {
+    "text": "que tal, quiero saber mi horario de matricula",
+    "intent": "saludo_y_consulta_matricula_horarios",
+    "intent_prediction": {
+      "name": "consulta_matricula_horarios",
+      "confidence": 0.6718071699142456
+    }
+  },
+  {
+    "text": "Hola que tal ciencito, dime donde encuentro los horarios de la matricula",
+    "intent": "saludo_y_consulta_cursos_horarios",
+    "intent_prediction": {
+      "name": "saludo_y_consulta_matricula_horarios",
+      "confidence": 0.2663968801498413
+    }
+  },
+  {
+    "text": "Quiero saber el horario de mis cursos",
+    "intent": "consulta_horario_cursos",
+    "intent_prediction": {
+      "name": "saludo_y_consulta_cursos_horarios",
+      "confidence": 0.7954897880554199
+    }
+  },
+  {
+    "text": "Hola me puedes decir como realizar la reserva de matricula",
+    "intent": "saludo_y_consulta_reserva_matricula_procedimiento",
+    "intent_prediction": {
+      "name": "consulta_reserva_matricula_procedimiento",
+      "confidence": 0.8192724585533142
+    }
+  },
+  {
+    "text": "la reserva de matricula tiene que enviarse antes de la matricula ?",
+    "intent": "consulta_reserva_matricula_fechas",
+    "intent_prediction": {
+      "name": "consulta_reserva_matricula_procedimiento",
+      "confidence": 0.6150897145271301
+    }
+  },
+  {
+    "text": "si hay algun formato o modelo para la solicitud",
+    "intent": "consulta_formato_solicitud_reserva_matricula",
+    "intent_prediction": {
+      "name": "consulta_formato_solicitud_reincorporacion",
+      "confidence": 0.50333571434021
+    }
+  },
+  {
+    "text": "Buenas tardes, el ciclo pasado no pude matricularme asi que reserve mi matricula quisiera saber ahora como puedo matricularme en el ciclo que viene",
+    "intent": "saludo_y_consulta_reincorporacion_procedimiento",
+    "intent_prediction": {
+      "name": "saludo_y_consulta_matricula_rezagada_procedimiento",
+      "confidence": 0.2684265077114105
+    }
+  },
+  {
+    "text": "Buenas noches, si me sobran créditos, todavía puedo matricularme en más cursos",
+    "intent": "saludo_y_consulta_problemas_matricula",
+    "intent_prediction": {
+      "name": "consulta_retiro_parcial_cursos_repetidos",
+      "confidence": 0.29954615235328674
+    }
+  },
+  {
+    "text": "Buenas tardes, en mi boleta de matrícula estoy matriculado en el curso de biología en la sección B pero la profesora del curso me menciona que estoy en la sección A, no puedo llevar en la sección A porque en ese horario estoy llevando económia",
+    "intent": "saludo_y_consulta_problemas_matricula",
+    "intent_prediction": {
+      "name": "saludo_y_consulta_reserva_matricula_procedimiento",
+      "confidence": 0.3615691363811493
+    }
+  },
+  {
+    "text": "no puede matricularme por problemas de internet paso a matricula rezagada entonces ?",
+    "intent": "consulta_perdida_turno_matricula",
+    "intent_prediction": {
+      "name": "consulta_matricula_rezagado_procedimiento_incompleto",
+      "confidence": 0.17986233532428741
+    }
+  },
+  {
+    "text": "una consulta estamos ya en la cuarta semana de clases, podria hacer el retiro parcial ?",
+    "intent": "consulta_retiro_parcial_fechas",
+    "intent_prediction": {
+      "name": "saludo_y_consulta_retiro_parcial_fechas",
+      "confidence": 0.9433461427688599
+    }
+  },
+  {
+    "text": "una duda a partir de semana puedo solicitar el retiro parcial ?",
+    "intent": "consulta_retiro_parcial_fechas",
+    "intent_prediction": {
+      "name": "saludo_y_consulta_retiro_parcial_fechas",
+      "confidence": 0.6689735651016235
+    }
+  },
+  {
+    "text": "Necesitaría mayor información de como es el procedimiento de reincorporación por favor",
+    "intent": "consulta_reincorporacion_procedimiento",
+    "intent_prediction": {
+      "name": "consulta_formato_solicitud_reincorporacion",
+      "confidence": 0.2811068296432495
+    }
+  },
+  {
+    "text": "como puedo realizar mi reicorporacion para el siguiente periodo academico",
+    "intent": "consulta_reincorporacion_procedimiento",
+    "intent_prediction": {
+      "name": "saludo_y_consulta_reincorporacion_procedimiento",
+      "confidence": 0.2764682471752167
+    }
+  },
+  {
+    "text": "si tambien quisiera que debaria de hacer luego de la reserva de matricula para reincoporarme el siguiente ciclo",
+    "intent": "consulta_reincorporacion_procedimiento",
+    "intent_prediction": {
+      "name": "consulta_reserva_matricula_procedimiento",
+      "confidence": 0.5270355939865112
+    }
+  },
+  {
+    "text": "a ya",
+    "intent": "confirmacion",
+    "intent_prediction": {
+      "name": "saludo",
+      "confidence": 0.45938947796821594
+    }
+  },
+  {
+    "text": "¿Que sucede si demore en realizar el pago de autoseguro?",
+    "intent": "consulta_matricula_pago_autoseguro_fuera_fecha",
+    "intent_prediction": {
+      "name": "consulta_pago_autoseguro",
+      "confidence": 0.8240928053855896
+    }
+  },
+  {
+    "text": "queria confirmar si los documentos solo se envian al ORCE o es necesario que los lleve en fisico",
+    "intent": "consulta_retiro_total_lugar_recepcion_documentos",
+    "intent_prediction": {
+      "name": "consulta_cambio_seccion",
+      "confidence": 0.21907249093055725
+    }
+  },
+  {
+    "text": "adios",
+    "intent": "despedida",
+    "intent_prediction": {
+      "name": "saludo",
+      "confidence": 0.8852563500404358
+    }
+  },
+  {
+    "text": "nos vemos",
+    "intent": "despedida",
+    "intent_prediction": {
+      "name": "confirmacion",
+      "confidence": 0.5690024495124817
+    }
+  },
+  {
+    "text": "Hola ayudame quiero saber como es el procedimiento para el pago de matricula rezagada",
+    "intent": "saludo_y_consulta_matricula_rezagada_procedimiento",
+    "intent_prediction": {
+      "name": "saludo_y_consulta_matricula_rezagado_pago_procedimiento",
+      "confidence": 0.5831215977668762
+    }
+  },
+  {
+    "text": "ok gracias",
+    "intent": "agradecimiento",
+    "intent_prediction": {
+      "name": "confirmacion",
+      "confidence": 0.5491183996200562
+    }
+  },
+  {
+    "text": "Ok, gracias.",
+    "intent": "agradecimiento",
+    "intent_prediction": {
+      "name": "confirmacion",
+      "confidence": 0.5098130702972412
+    }
+  },
+  {
+    "text": "Hola ayudame quiero saber como pagar el autoseguro creo que es el ultimo dia",
+    "intent": "saludo_y_consulta_pago_autoseguro",
+    "intent_prediction": {
+      "name": "saludo_y_consulta_matricula_pago_autoseguro_fuera_fecha",
+      "confidence": 0.2581057846546173
+    }
+  },
+  {
+    "text": "Hola, como pago el autoseguro",
+    "intent": "saludo_y_consulta_pago_autoseguro",
+    "intent_prediction": {
+      "name": "consulta_pago_autoseguro",
+      "confidence": 0.7888380289077759
+    }
+  },
+  {
+    "text": "Hola, este ciclo no podre matricularme por motivos de salud cual seria el procedimiento para poder reservar la matricula",
+    "intent": "saludo_y_consulta_reserva_matricula_procedimiento",
+    "intent_prediction": {
+      "name": "consulta_reserva_matricula_procedimiento",
+      "confidence": 0.9089059829711914
+    }
+  },
+  {
+    "text": "hasta que dias podria enviar la solicitud entonces",
+    "intent": "consulta_reserva_matricula_fechas",
+    "intent_prediction": {
+      "name": "consulta_perdida_turno_matricula",
+      "confidence": 0.2570454478263855
+    }
+  },
+  {
+    "text": "¿Cuál es el procedimiento para solicitar orden de pago?",
+    "intent": "consulta_matricula_rezagado_pago_procedimiento",
+    "intent_prediction": {
+      "name": "saludo_y_consulta_matricula_rezagado_procedimiento_incompleto",
+      "confidence": 0.2094581425189972
+    }
+  },
+  {
+    "text": "Hola que tal, tengo problemas de matricula",
+    "intent": "saludo_y_consulta_problemas_matricula",
+    "intent_prediction": {
+      "name": "saludo_y_consulta_matricula_horarios",
+      "confidence": 0.5267229080200195
+    }
+  },
+  {
+    "text": "Buenas quiero cambiarme el horario del curso de biología es posible",
+    "intent": "saludo_y_consulta_cambio_seccion",
+    "intent_prediction": {
+      "name": "saludo_y_consulta_cursos_horarios",
+      "confidence": 0.9501395225524902
+    }
+  },
+  {
+    "text": "Hola, quisiera saber que hacer por que no pude matricuarme en mi horario no tuve internet",
+    "intent": "saludo_y_consulta_perdida_turno_matricula",
+    "intent_prediction": {
+      "name": "consulta_perdida_turno_matricula",
+      "confidence": 0.8868159055709839
+    }
+  },
+  {
+    "text": "Hola, si perdi mi turno como realizo mi matricula",
+    "intent": "saludo_y_consulta_perdida_turno_matricula",
+    "intent_prediction": {
+      "name": "consulta_perdida_turno_matricula",
+      "confidence": 0.40973562002182007
+    }
+  },
+  {
+    "text": "he tenido problemas de conexion y no llegue a matricularme que debe hacer",
+    "intent": "consulta_perdida_turno_matricula",
+    "intent_prediction": {
+      "name": "saludo_y_consulta_perdida_turno_matricula",
+      "confidence": 0.2406749427318573
+    }
+  },
+  {
+    "text": "Hasta que fecha podría hacerlo?",
+    "intent": "consulta_retiro_parcial_fechas",
+    "intent_prediction": {
+      "name": "saludo_y_consulta_pago_autoseguro",
+      "confidence": 0.23123207688331604
+    }
+  },
+  {
+    "text": "en que semana se realiza el retiro parcial ?",
+    "intent": "consulta_retiro_parcial_fechas",
+    "intent_prediction": {
+      "name": "saludo_y_consulta_retiro_parcial_fechas",
+      "confidence": 0.5434607863426208
+    }
+  },
+  {
+    "text": "que proceso debo seguir para que se me habilite mi matricula dando que reserve mi matricula el ciclo pasado",
+    "intent": "consulta_reincorporacion_procedimiento",
+    "intent_prediction": {
+      "name": "saludo_y_consulta_reincorporacion_procedimiento",
+      "confidence": 0.4435604512691498
+    }
+  },
+  {
+    "text": "Buenos dias, que pasa si no pago a tiempo el autoseguro",
+    "intent": "saludo_y_consulta_matricula_pago_autoseguro_fuera_fecha",
+    "intent_prediction": {
+      "name": "consulta_matricula_pago_autoseguro_fechas",
+      "confidence": 0.4485448896884918
+    }
+  },
+  {
+    "text": "Buenos dias, quiero saber si no pague a tiempo el autoseguro me voy a rezagada la matricula",
+    "intent": "saludo_y_consulta_matricula_pago_autoseguro_fuera_fecha",
+    "intent_prediction": {
+      "name": "consulta_matricula_pago_autoseguro_fuera_fecha",
+      "confidence": 0.5958895087242126
+    }
+  },
+  {
+    "text": "tengo una consulta si no pago el autoseguro con los 3 dias de anticipación pasare a resagado ?",
+    "intent": "consulta_matricula_pago_autoseguro_fuera_fecha",
+    "intent_prediction": {
+      "name": "saludo_y_consulta_matricula_pago_autoseguro_fuera_fecha",
+      "confidence": 0.4768630862236023
+    }
+  },
+  {
+    "text": "Hola, quisiera retirarme de un curso me podria decir hasta cuando se habilitara en el sistema ?",
+    "intent": "saludo_y_consulta_retiro_parcial_fechas",
+    "intent_prediction": {
+      "name": "saludo_y_consulta_cursos_horarios",
+      "confidence": 0.22438356280326843
+    }
+  },
+  {
+    "text": "Los llevo a la Facultad?",
+    "intent": "consulta_retiro_total_lugar_recepcion_documentos",
+    "intent_prediction": {
+      "name": "agradecimiento",
+      "confidence": 0.40039247274398804
+    }
+  },
+  {
+    "text": "que tal",
+    "intent": "saludo",
+    "intent_prediction": {
+      "name": "confirmar_requerir_mas_ayuda",
+      "confidence": 0.38054487109184265
+    }
+  },
+  {
+    "text": "Hola, no pude matricularme y me dicen que pase a matricula rezagada que debo de hacer",
+    "intent": "saludo_y_consulta_matricula_rezagada_procedimiento",
+    "intent_prediction": {
+      "name": "saludo_y_consulta_perdida_turno_matricula",
+      "confidence": 0.7147120833396912
+    }
+  },
+  {
+    "text": "hola, dime para la matricula rezagada debo pagar ?",
+    "intent": "saludo_y_consulta_matricula_rezagada_procedimiento",
+    "intent_prediction": {
+      "name": "saludo_y_consulta_matricula_rezagado_pago_procedimiento",
+      "confidence": 0.6162306070327759
+    }
+  },
+  {
+    "text": "como me matriculo como rezagado",
+    "intent": "consulta_matricula_rezagada_procedimiento",
+    "intent_prediction": {
+      "name": "saludo_y_consulta_matricula_rezagada_procedimiento",
+      "confidence": 0.6476774215698242
+    }
+  },
+  {
+    "text": "Genial!",
+    "intent": "agradecimiento",
+    "intent_prediction": {
+      "name": "saludo",
+      "confidence": 0.8633499145507812
+    }
+  },
+  {
+    "text": "Muy agradecido por su respuesta",
+    "intent": "agradecimiento",
+    "intent_prediction": {
+      "name": "denegar_mas_ayuda",
+      "confidence": 0.2724713683128357
+    }
+  },
+  {
+    "text": "Hola Ciencito, me puedes decir donde encontrar el cronograma de matricula",
+    "intent": "saludo_y_consulta_matricula_cronograma",
+    "intent_prediction": {
+      "name": "saludo_y_consulta_matricula_horarios",
+      "confidence": 0.3545041084289551
+    }
+  },
+  {
+    "text": "Entiendo, y cuando seran los dias de la matricula",
+    "intent": "consulta_matricula_cronograma",
+    "intent_prediction": {
+      "name": "saludo_y_consulta_matricula_cronograma",
+      "confidence": 0.7615780234336853
+    }
+  },
+  {
+    "text": "Buenos dias , dime porfavor cual el horario del curso de calculo diferencial el integral avanzado",
+    "intent": "saludo_y_consulta_cursos_horarios",
+    "intent_prediction": {
+      "name": "consulta_horario_cursos",
+      "confidence": 0.2967340350151062
+    }
+  },
+  {
+    "text": "Y hasta cuando podria enviar la solicitud ?",
+    "intent": "consulta_reserva_matricula_fechas",
+    "intent_prediction": {
+      "name": "consulta_retiro_parcial_fechas",
+      "confidence": 0.9750141501426697
+    }
+  },
+  {
+    "text": "Buenas tardes me dirijo a ustedes porque quiero Reincorporarme en el siguiente periodo académico",
+    "intent": "saludo_y_consulta_reincorporacion_procedimiento",
+    "intent_prediction": {
+      "name": "consulta_reincorporacion_procedimiento",
+      "confidence": 0.5323221683502197
+    }
+  },
+  {
+    "text": "Buenas noches, el anterior ciclo reserve mi matricula por motivos familiares , este ciclo si quiero matricularme realizo mi matricula como siempre o hay algun tramite que debo hacer ?",
+    "intent": "saludo_y_consulta_reincorporacion_procedimiento",
+    "intent_prediction": {
+      "name": "saludo_y_consulta_reserva_matricula_procedimiento",
+      "confidence": 0.6937994360923767
+    }
+  },
+  {
+    "text": "Buenos dias, me han dicho que debo generar una order de paga para pagar por matricula rezagada a quien le pido o como puedo generarlo",
+    "intent": "saludo_y_consulta_matricula_rezagado_pago_procedimiento",
+    "intent_prediction": {
+      "name": "consulta_matricula_rezagado_pago_procedimiento",
+      "confidence": 0.28703534603118896
+    }
+  },
+  {
+    "text": "hola, donde pago el por matricula de rezagados ?",
+    "intent": "saludo_y_consulta_matricula_rezagado_pago_procedimiento",
+    "intent_prediction": {
+      "name": "consulta_matricula_rezagado_pago_procedimiento",
+      "confidence": 0.7047044634819031
+    }
+  },
+  {
+    "text": "Buenos días, me  percate que tengo un cruce en mi matrícula",
+    "intent": "saludo_y_consulta_problemas_matricula",
+    "intent_prediction": {
+      "name": "saludo_y_consulta_reincorporacion_procedimiento",
+      "confidence": 0.28076180815696716
+    }
+  },
+  {
+    "text": "tengo problemas con mi horario actual del curso de Fisica I en la seccion B, quiero hacer el cambio a la seccion A",
+    "intent": "consulta_cambio_seccion",
+    "intent_prediction": {
+      "name": "saludo_y_consulta_cambio_seccion",
+      "confidence": 0.9292706847190857
+    }
+  },
+  {
+    "text": "cual es el telefono y anexo de AERA",
+    "intent": "consulta_contacto_aera",
+    "intent_prediction": {
+      "name": "consulta_horario_atencion",
+      "confidence": 0.33567073941230774
+    }
+  },
+  {
+    "text": "Hola, no vi el horario y se me paso mi turno de matricuarme como hago ahora para matricuarme",
+    "intent": "saludo_y_consulta_perdida_turno_matricula",
+    "intent_prediction": {
+      "name": "consulta_perdida_turno_matricula",
+      "confidence": 0.7872739434242249
+    }
+  },
+  {
+    "text": "quisiera saber que hacer por que no pude matricuarme en mi horario no tuve internet",
+    "intent": "consulta_perdida_turno_matricula",
+    "intent_prediction": {
+      "name": "saludo_y_consulta_perdida_turno_matricula",
+      "confidence": 0.8665573000907898
+    }
+  },
+  {
+    "text": "perdi mi horario de matricula como hago ahora",
+    "intent": "consulta_perdida_turno_matricula",
+    "intent_prediction": {
+      "name": "saludo_y_consulta_perdida_turno_matricula",
+      "confidence": 0.1768741011619568
+    }
+  },
+  {
+    "text": "quisiera saber hasta que dias puedo hacer el retiro parcial ?",
+    "intent": "consulta_retiro_parcial_fechas",
+    "intent_prediction": {
+      "name": "saludo_y_consulta_retiro_parcial_fechas",
+      "confidence": 0.4554358422756195
+    }
+  },
+  {
+    "text": "una consulta cuando se habilitara en el sistema el retiro parcial?",
+    "intent": "consulta_retiro_parcial_fechas",
+    "intent_prediction": {
+      "name": "saludo_y_consulta_retiro_parcial_fechas",
+      "confidence": 0.8520956039428711
+    }
+  },
+  {
+    "text": "entonces que pasa si me paso de la fecha limite para la reincoporacion",
+    "intent": "consulta_reincorporacion_rezagada_procedimiento",
+    "intent_prediction": {
+      "name": "consulta_reincorporacion_procedimiento",
+      "confidence": 0.353925883769989
+    }
+  },
+  {
+    "text": "tengo una duda quiero reincorpararme el siguiente ciclo pero no se en que fechas debo comenzar el tramite",
+    "intent": "consulta_reincorporacion_fechas",
+    "intent_prediction": {
+      "name": "consulta_reincorporacion_rezagada_procedimiento",
+      "confidence": 0.53604656457901
+    }
+  },
+  {
+    "text": "y hay alguna modelo para la solicitud ?",
+    "intent": "consulta_formato_solicitud_reincorporacion",
+    "intent_prediction": {
+      "name": "consulta_formato_solicitud_reserva_matricula",
+      "confidence": 0.8889544606208801
+    }
+  },
+  {
+    "text": "Oye, no se si voy a pagar el autoseguro hoy y creo que es el ultimo dia que paso si no lo pago a tiempo",
+    "intent": "saludo_y_consulta_matricula_pago_autoseguro_fuera_fecha",
+    "intent_prediction": {
+      "name": "consulta_matricula_pago_autoseguro_fuera_fecha",
+      "confidence": 0.8605009317398071
+    }
+  },
+  {
+    "text": "si queria saber si no lo pago a tiempo que debo hacer",
+    "intent": "consulta_matricula_pago_autoseguro_fuera_fecha",
+    "intent_prediction": {
+      "name": "consulta_matricula_pago_autoseguro_fechas",
+      "confidence": 0.7287018299102783
+    }
+  },
+  {
+    "text": "que mas debo hacer para que se me habiite la matricula luego de haber pagado por concepto de rezagado",
+    "intent": "consulta_matricula_rezagado_procedimiento_incompleto",
+    "intent_prediction": {
+      "name": "consulta_matricula_rezagado_pago_procedimiento",
+      "confidence": 0.7549524903297424
+    }
+  },
+  {
+    "text": "debe llevarlo a la facultad?",
+    "intent": "consulta_retiro_total_lugar_recepcion_documentos",
+    "intent_prediction": {
+      "name": "consulta_matricula_rezagado_pago_procedimiento",
+      "confidence": 0.4755396246910095
+    }
+  },
+  {
+    "text": "Pudo retirame de un curso que haya repetido el ciclo anterior ?",
+    "intent": "consulta_retiro_parcial_cursos_repetidos",
+    "intent_prediction": {
+      "name": "saludo_y_consulta_problemas_matricula",
+      "confidence": 0.2564273476600647
+    }
+  },
+  {
+    "text": "Hola quisiera saber como va mi tramite de reicorporacion",
+    "intent": "saludo_y_consulta_estado_tramites_reincorporacion",
+    "intent_prediction": {
+      "name": "consulta_reincorporacion_costo",
+      "confidence": 0.5054436326026917
+    }
+  },
+  {
+    "text": "hasta luego",
+    "intent": "despedida",
+    "intent_prediction": {
+      "name": "confirmacion",
+      "confidence": 0.26567065715789795
+    }
+  },
+  {
+    "text": "buenas",
+    "intent": "saludo",
+    "intent_prediction": {
+      "name": "despedida",
+      "confidence": 0.6397455930709839
+    }
+  },
+  {
+    "text": "buenos dias",
+    "intent": "saludo",
+    "intent_prediction": {
+      "name": "despedida",
+      "confidence": 0.6176372170448303
+    }
+  },
+  {
+    "text": "buenos dias, no pude matricularme en la fecha que me correspondía, cual es el procedimiento para rezagado",
+    "intent": "saludo_y_consulta_matricula_rezagada_procedimiento",
+    "intent_prediction": {
+      "name": "consulta_matricula_rezagada_procedimiento",
+      "confidence": 0.3162665069103241
+    }
+  },
+  {
+    "text": "no pude matricularme a tiempo cual es procedimiento para la matricula rezagada",
+    "intent": "consulta_matricula_rezagada_procedimiento",
+    "intent_prediction": {
+      "name": "saludo_y_consulta_matricula_rezagada_procedimiento",
+      "confidence": 0.35594654083251953
+    }
+  },
+  {
+    "text": "dime como puedo tramitar mi matricula rezagada",
+    "intent": "consulta_matricula_rezagada_procedimiento",
+    "intent_prediction": {
+      "name": "saludo_y_consulta_matricula_rezagada_procedimiento",
+      "confidence": 0.9777284264564514
+    }
+  },
+  {
+    "text": "que debo pagar y a donde debo enviar el voucher para que se me habilite la matricula rezagada",
+    "intent": "consulta_matricula_rezagada_procedimiento",
+    "intent_prediction": {
+      "name": "saludo_y_consulta_matricula_rezagado_procedimiento_incompleto",
+      "confidence": 0.38896238803863525
+    }
+  },
+  {
+    "text": "Si claro",
+    "intent": "confirmar_requerir_mas_ayuda",
+    "intent_prediction": {
+      "name": "consulta_horario_cursos",
+      "confidence": 0.318829208612442
+    }
+  },
+  {
+    "text": "cual es el cronograma de matricula",
+    "intent": "consulta_matricula_cronograma",
+    "intent_prediction": {
+      "name": "consulta_horario_atencion",
+      "confidence": 0.45249518752098083
+    }
+  },
+  {
+    "text": "tengo una consulta con cuantos dias antes de la matricula se debe pagar el autoseguro",
+    "intent": "consulta_matricula_pago_autoseguro_fechas",
+    "intent_prediction": {
+      "name": "consulta_pago_autoseguro",
+      "confidence": 0.5730252861976624
+    }
+  },
+  {
+    "text": "Hola ciencito, queria consultarte lo que pasa es que por temas familiares este ciclo estaba pensando no matricular que debo hacer",
+    "intent": "saludo_y_consulta_reserva_matricula_procedimiento",
+    "intent_prediction": {
+      "name": "saludo_y_consulta_reincorporacion_procedimiento",
+      "confidence": 0.34201839566230774
+    }
+  },
+  {
+    "text": "Me podria indicar también que debo hacer para realizar una reserva de matricula, este semestre no podre matricularme",
+    "intent": "consulta_reserva_matricula_procedimiento",
+    "intent_prediction": {
+      "name": "saludo_y_consulta_reserva_matricula_procedimiento",
+      "confidence": 0.6409010291099548
+    }
+  },
+  {
+    "text": "AERA atiende en la noches",
+    "intent": "consulta_horario_atencion",
+    "intent_prediction": {
+      "name": "saludo_y_consulta_matricula_cronograma",
+      "confidence": 0.4455723464488983
+    }
+  },
+  {
+    "text": "puedes decirme donde encuentro un modelo de solicitud ?",
+    "intent": "consulta_formato_solicitud_reserva_matricula",
+    "intent_prediction": {
+      "name": "consulta_formato_solicitud_reincorporacion",
+      "confidence": 0.47585412859916687
+    }
+  },
+  {
+    "text": "Hola ciencito, este ciclo quisiera reincorporarme cual es procedimiento ?",
+    "intent": "saludo_y_consulta_reincorporacion_procedimiento",
+    "intent_prediction": {
+      "name": "consulta_reincorporacion_procedimiento",
+      "confidence": 0.2769335210323334
+    }
+  },
+  {
+    "text": "Buenos dias, tengo una duda quiero matricularme este ciclo pero el anterior por motivos de trabajo solicite la reserva de matricula, para realizar mi matricula debo hacer algo adicional ?",
+    "intent": "saludo_y_consulta_reincorporacion_procedimiento",
+    "intent_prediction": {
+      "name": "saludo_y_consulta_reserva_matricula_procedimiento",
+      "confidence": 0.5387364625930786
+    }
+  },
+  {
+    "text": "Buenas tardes, una consulta el procedimiento para pagar por rezagado como es ?",
+    "intent": "saludo_y_consulta_matricula_rezagado_pago_procedimiento",
+    "intent_prediction": {
+      "name": "consulta_matricula_rezagado_pago_procedimiento",
+      "confidence": 0.3992825448513031
+    }
+  },
+  {
+    "text": "hola, una duda cual es el nuevo procedimiento para pagar la matricula por rezagado ?",
+    "intent": "saludo_y_consulta_matricula_rezagado_pago_procedimiento",
+    "intent_prediction": {
+      "name": "consulta_matricula_rezagado_pago_procedimiento",
+      "confidence": 0.33801335096359253
+    }
+  },
+  {
+    "text": "Hola, deseo solucionar un cruce de horario en mi matricula que debería hacer",
+    "intent": "saludo_y_consulta_problemas_matricula",
+    "intent_prediction": {
+      "name": "saludo_y_consulta_perdida_turno_matricula",
+      "confidence": 0.6002658009529114
+    }
+  },
+  {
+    "text": "si es que no he tenido internet todo el dia y no pude matricuarme que debo hacer",
+    "intent": "consulta_perdida_turno_matricula",
+    "intent_prediction": {
+      "name": "saludo_y_consulta_perdida_turno_matricula",
+      "confidence": 0.27743130922317505
+    }
+  },
+  {
+    "text": "Y hasta cuando podria enviar enviar la solicitud ?",
+    "intent": "consulta_retiro_parcial_fechas",
+    "intent_prediction": {
+      "name": "consulta_reserva_matricula_fechas",
+      "confidence": 0.987278401851654
+    }
+  },
+  {
+    "text": "Y hasta cuando podria enviar la solicitud ?",
+    "intent": "consulta_retiro_parcial_fechas",
+    "intent_prediction": {
+      "name": "consulta_reserva_matricula_fechas",
+      "confidence": 0.9949177503585815
+    }
+  },
+  {
+    "text": "quiero solicitar el retiro de un curso hasta cuando puedo hacerlo ?",
+    "intent": "consulta_retiro_parcial_fechas",
+    "intent_prediction": {
+      "name": "consulta_cambio_seccion",
+      "confidence": 0.2934249937534332
+    }
+  },
+  {
+    "text": "Realice la Reserva de Matrícula el periodo pasado, que me corresponde hacer para matricularme este periodo",
+    "intent": "consulta_reincorporacion_procedimiento",
+    "intent_prediction": {
+      "name": "saludo_y_consulta_reincorporacion_procedimiento",
+      "confidence": 0.38993850350379944
+    }
+  },
+  {
+    "text": "como debe ser la solictud de reincorporacion ?",
+    "intent": "consulta_formato_solicitud_reincorporacion",
+    "intent_prediction": {
+      "name": "consulta_reincorporacion_procedimiento",
+      "confidence": 0.5455899238586426
+    }
+  },
+  {
+    "text": "Ok",
+    "intent": "confirmacion",
+    "intent_prediction": {
+      "name": "agradecimiento",
+      "confidence": 0.6099643111228943
+    }
+  },
+  {
+    "text": "esta bien",
+    "intent": "confirmacion",
+    "intent_prediction": {
+      "name": "despedida",
+      "confidence": 0.5184986591339111
+    }
+  },
+  {
+    "text": "no se si voy a pagar el autoseguro hoy y creo que es el ultimo dia que paso si no lo pago a tiempo",
+    "intent": "consulta_matricula_pago_autoseguro_fuera_fecha",
+    "intent_prediction": {
+      "name": "saludo_y_consulta_matricula_pago_autoseguro_fuera_fecha",
+      "confidence": 0.7911502122879028
+    }
+  },
+  {
+    "text": "quiero saber si no pague a tiempo el autoseguro me voy a rezagada la matricula",
+    "intent": "consulta_matricula_pago_autoseguro_fuera_fecha",
+    "intent_prediction": {
+      "name": "saludo_y_consulta_matricula_pago_autoseguro_fuera_fecha",
+      "confidence": 0.4934524893760681
+    }
+  },
+  {
+    "text": "Buenas tardes, ya pague por concepto de matricula rezagada debo enviar el vaucher a AERA",
+    "intent": "saludo_y_consulta_matricula_rezagado_procedimiento_incompleto",
+    "intent_prediction": {
+      "name": "consulta_matricula_rezagado_procedimiento_incompleto",
+      "confidence": 0.4422569274902344
+    }
+  },
+  {
+    "text": "ya pague por matricula rezagada pero no entendi si debo llevar el vaucher a la facultad o solo subirla al sistema de ORCE",
+    "intent": "consulta_matricula_rezagado_procedimiento_incompleto",
+    "intent_prediction": {
+      "name": "saludo_y_consulta_matricula_rezagado_procedimiento_incompleto",
+      "confidence": 0.7960376739501953
+    }
+  },
+  {
+    "text": "el posible retirase de cursos con repitencias ?",
+    "intent": "consulta_retiro_parcial_cursos_repetidos",
+    "intent_prediction": {
+      "name": "consulta_retiro_parcial_fechas",
+      "confidence": 0.44122055172920227
+    }
+  }
+]

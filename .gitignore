@@ -4,3 +4,4 @@ models/
 tensorboard_log/*
 __pycache__
 .idea/
+BCK/

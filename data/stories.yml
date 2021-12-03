@@ -41,7 +41,7 @@ stories:
       - intent: consulta_matricula_horarios
       - action: utter_informar_matricula_horarios
       - intent: confirmacion
-      - action: utter_agradecimiento_y_requerir_mas
+      - action: utter_requerir_mas
       - intent: denegar_mas_ayuda
       - action: utter_despedida
   - story: CM_00003F1
@@ -184,7 +184,7 @@ stories:
     steps:
       - intent: consulta_matricula_pago_autoseguro_fuera_fecha
       - action: utter_saludo_informar_matricula_pago_autoseguro_fuera_fecha
-      - intent: consulta_matricula_rezagado_pago_procedimiento
+      - intent: consulta_matricula_rezagada_pago_procedimiento
       - action: utter_informar_matricula_rezagado_pago_procedimiento
       - intent: agradecimiento
       - action: utter_agradecimiento_y_requerir_mas
